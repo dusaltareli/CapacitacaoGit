@@ -1,0 +1,41 @@
+body{
+    font-family: Helvetica, sans-serif;
+}
+a:link, a:visited{
+    color: #ff6600;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#conteudo{
+    width: 960px;
+    margin: auto;
+    background: #e3e3ee ;
+    padding: 10px 20px; /*em cima e embaixo 10px direita e esquerda 20px*/
+}
+header nav ul{
+    list-style: none;
+    padding-left: 0;
+}
+header nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+header nav ul li a{
+    font-size: 18px;
+}
+#secao{
+    float: left;
+    width: 660px;
+}
+#barra{
+    float: right;
+    width: 300px;
+}
+#barra ul{
+    list-style: none;
+}
+footer{
+    clear: both;
+}
